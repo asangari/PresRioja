@@ -185,7 +185,7 @@ Eje temático: Resolución de Problemas
 \end_layout
 
 \begin_layout Author
-Antonio Sangari
+Antonio Sángari
 \begin_inset ERT
 status collapsed
 
@@ -265,8 +265,9 @@ Autor et al.
 \end_layout
 
 \begin_layout Institute
-Dpto de Matemática, Fac.
- Ciencias Exactas
+Dpto.
+ de Matemática, Fac.
+ de Ciencias Exactas
 \begin_inset Newline newline
 \end_inset
 
@@ -310,7 +311,10 @@ opcional, aunque generalmente necesario
 \end_layout
 
 \begin_layout Date
-7° Jornadas Nacionales de Matemática - UNLaR, 2012
+\begin_inset Formula $7{}^{as}$
+\end_inset
+
+ Jornadas Nacionales de Matemática - UNLaR, 2012
 \begin_inset Note Note
 status collapsed
 
@@ -650,7 +654,7 @@ status open
 
 \end_inset
 
- Separaremos los problemas de optimización en dos clases: 
+ Separaremos los problemas de optimización en dos clases, 
 \begin_inset ERT
 status open
 
@@ -661,14 +665,14 @@ status open
 
 \end_inset
 
-La primera presenta planteos de posiciones óptimas que son resueltos con
+la primera presenta planteos de posiciones óptimas que son resueltos con
  geometría elemental.
  La segunda clase muestra problemas clásicos del cálculo diferencial posibles
  de ser resueltos geométricamente.
 \end_layout
 
 \begin_layout Section
-La mejor posición
+La Mejor Posición
 \end_layout
 
 \begin_layout Subsection
@@ -725,12 +729,23 @@ key "vasiliev1980rectas"
 
 \end_layout
 
-\begin_layout Standard
-\align center
+\begin_layout ExampleBlock
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename Gato y Raton Trans.png
+	lyxscale 20
 	scale 20
 	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -742,43 +757,18 @@ Preparación
 \end_layout
 
 \begin_layout Standard
-Antes de pensar en la solución, podríamos hacer una exploración previa usando,
- por ejemplo, un programa como Geogebra.
+Antes de pensar en la solución, hacemos una exploración previa usando, por
+ ejemplo, un programa como GeoGebra.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename GatoGral11.png
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:minima-distancia"
-
-\end_inset
-
-El punto de menor distancia al punto más lejano
-\end_layout
-
-\end_inset
-
-
-\end_layout
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
 
 \end_inset
 
@@ -798,7 +788,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename GatoGral10.png
-	lyxscale 90
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -830,7 +820,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename GatoGral9.png
-	lyxscale 90
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -866,7 +856,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename GatoGral8.png
-	lyxscale 90
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -902,7 +892,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename GatoGral7.png
-	lyxscale 90
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -938,7 +928,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename GatoGral6.png
-	lyxscale 90
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -974,7 +964,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename GatoGral5.png
-	lyxscale 90
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -1010,7 +1000,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename GatoGral4.png
-	lyxscale 90
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -1034,7 +1024,7 @@ Caso 1.
 \align center
 \begin_inset Graphics
 	filename GatoGral3.png
-	lyxscale 90
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -1053,7 +1043,7 @@ Caso 1.
 \align center
 \begin_inset Graphics
 	filename GatoGral2.png
-	lyxscale 90
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -1072,7 +1062,7 @@ Caso 1.
 \align center
 \begin_inset Graphics
 	filename GatoGral1.png
-	lyxscale 90
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -1091,7 +1081,7 @@ Caso 2.
 \align center
 \begin_inset Graphics
 	filename GatoRectangulo.png
-	lyxscale 90
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -1109,8 +1099,8 @@ Caso 3.
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Gato2.png
-	lyxscale 90
+	filename GatoObt.png
+	lyxscale 20
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
@@ -1118,6 +1108,94 @@ Caso 3.
 \end_inset
 
 
+\end_layout
+
+\begin_layout BeginFrame
+En Resumen
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Si el triángulo es acutángulo
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ el gato debiera situarse en el circuncentro del triángulo.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Si el triángulo es rectángulo
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ el gato debiera situarse en el circuncentro del triángulo, es decir en
+ el punto medio de la hipotenusa.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Si el triángulo es obtusángulo
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ el gato debiera situarse en el punto medio del lado mayor.
 \end_layout
 
 \begin_layout Subsection
@@ -1171,6 +1249,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename vias y oso trans.png
+	lyxscale 70
 	scale 50
 
 \end_inset
@@ -1209,13 +1288,12 @@ status open
 
 \end_inset
 
-en vez de ser un problema de minimización como es el problema anterior,
- es un problema de maximización.
+ a diferencia del anterior, es de maximización.
  
 \end_layout
 
-\begin_layout Pause
-
+\begin_layout BeginFrame
+Preparación
 \end_layout
 
 \begin_layout Block
@@ -1240,12 +1318,12 @@ status open
 
 \end_inset
 
-de los puntos que equidistan de una recta dada están sobre una par de rectas
+de los puntos que equidistan de una recta dada están sobre un par de rectas
  paralelas.
 \end_layout
 
-\begin_layout Pause
-
+\begin_layout BeginFrame
+Preparación
 \end_layout
 
 \begin_layout Block
@@ -1259,7 +1337,7 @@ status open
 
 \end_inset
 
-El estudiante debe ser guiado 
+Se induce al estudiante 
 \begin_inset ERT
 status open
 
@@ -1270,56 +1348,64 @@ status open
 
 \end_inset
 
-a concluir que en cada posición de las rectas paralelas, el punto buscado
+ para concluir que en cada posición de las rectas paralelas, el punto buscado
  para la guarida del oso debe encontrarse dentro del triángulo determinado
- por las rectas paralelas
+ por las rectas paralelas.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ProOsoGral.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
 Exploración
 \end_layout
 
-\begin_layout Standard
-Los estudiantes son guiados a concluir que el punto será el límite cuando
- dicho triángulo degenera en un punto.
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Se guía al estudiante 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ para que concluya que el punto buscado es el límite cuando dicho triángulo
+ degenera en un punto.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename /home/cristina/PresRioja/ProOso.png
-	lyxscale 90
-	width 8cm
-	groupId PosOptima
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:mayordist"
-
-\end_inset
-
-El punto de mayor distancia al lado más cercano
-\end_layout
-
-\end_inset
-
-
-\end_layout
+	filename ProOsoGral Opt.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
 
 \end_inset
 
@@ -1327,7 +1413,7 @@ El punto de mayor distancia al lado más cercano
 \end_layout
 
 \begin_layout BeginFrame
-La solución
+Exploración
 \end_layout
 
 \begin_layout Block
@@ -1355,8 +1441,8 @@ status open
 Este punto, ¿es un punto característico?
 \end_layout
 
-\begin_layout Pause
-
+\begin_layout BeginFrame
+Solución
 \end_layout
 
 \begin_layout ColumnsTopAligned
@@ -1365,7 +1451,7 @@ Este punto, ¿es un punto característico?
 
 \begin_deeper
 \begin_layout Column
-5cm
+4cm
 \end_layout
 
 \begin_layout Block
@@ -1391,12 +1477,39 @@ status open
 \end_inset
 
 a igual distancia de los lados del triángulo.
- Es decir, se trataría del centro de la circunferencia inscrita en el triángulo.
+ Es decir, se trata del centro de la circunferencia inscrita en el triángulo.
  
 \end_layout
 
 \begin_layout Column
-5cm
+6cm
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ProOso Opt.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+Solución
+\end_layout
+
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+4cm
 \end_layout
 
 \begin_layout Block
@@ -1410,7 +1523,7 @@ status open
 
 \end_inset
 
-La segunda manera es notando que 
+Otra manera es notar que 
 \begin_inset ERT
 status open
 
@@ -1422,14 +1535,35 @@ status open
 \end_inset
 
 los lados con sus paralelas determinan un rombo.
- En este caso, se nota que la bisectriz de un ángulo pasa por los vértices
- correspondientes de los triángulos considerados.
+ Se observa que la bisectriz de un ángulo de 
+\begin_inset Formula $ABC$
+\end_inset
+
+ pasa por el vértice opuesto del rombo correspondiente, y por tanto contiene
+ a la bisectriz del triángulo interior.
  
 \end_layout
 
+\begin_layout Column
+6cm
+\end_layout
+
 \end_deeper
+\begin_layout ColumnsTopAligned
+\begin_inset Graphics
+	filename ProOso5.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout BeginFrame
-En resumen
+En Resumen
 \end_layout
 
 \begin_layout AlertBlock
@@ -1455,9 +1589,22 @@ status open
 \end_inset
 
 la intersección de las bisectrices del triángulo.
- En otras palabras el punto buscado es el incentro de ambos triángulos considera
-dos.
+ Es decir, el punto buscado es el incentro de ambos triángulos considerados.
  
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ProOso6.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1472,7 +1619,7 @@ El Punto de Fermat
 Planteo del Problema
 \end_layout
 
-\begin_layout AlertBlock
+\begin_layout ExampleBlock
 \begin_inset ERT
 status open
 
@@ -1483,7 +1630,7 @@ status open
 
 \end_inset
 
-Dado un triángulo 
+Dado un triángulo, 
 \begin_inset ERT
 status open
 
@@ -1502,7 +1649,7 @@ suma
 \end_layout
 
 \begin_layout BeginFrame
-Modos de Encarar el problema
+Modos de Encarar el Problema
 \end_layout
 
 \begin_layout Block
@@ -1627,37 +1774,146 @@ key "sangari2012optimizsincd"
 \end_layout
 
 \begin_layout BeginFrame
-Bosquejo del método analítico
+Resolución Geométrica
 \end_layout
 
 \begin_layout Standard
-Sean 
-\begin_inset Formula $A\left(0,0\right),$
+\align center
+\begin_inset Graphics
+	filename PuntoFermat1.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
 \end_inset
 
+
+\end_layout
+
+\begin_layout BeginFrame
+Resolución Geométrica
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename PuntoFermat2.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Resolución Geométrica
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename PuntoFermat3.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Resolución Geométrica
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename PuntoFermat4.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Resolución Geométrica
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename PuntoFermat5.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Resolución Geométrica
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename PuntoFermat6.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Resolución Geométrica
+\end_layout
+
+\begin_layout Standard
+El mínimo 
+\begin_inset Formula $F$
+\end_inset
+
+ en un triángulo acutángulo es tal que el ángulo con vértice en este punto
+ que subtiende a los lados del triángulo es de 
+\begin_inset Formula $120°$
+\end_inset
+
+.
  
-\begin_inset Formula $B\left(a,0\right)$
-\end_inset
+\end_layout
 
- y 
-\begin_inset Formula $C\left(b,c\right)$
-\end_inset
-
- puntos fijos.
- Sea 
-\begin_inset Formula $D\left(x,y\right)$
-\end_inset
-
- un punto variable.
- La función que tenemos que minimizar es 
-\begin_inset Formula 
-\[
-f\left(x,y\right)=\underbrace{\sqrt{x^{2}+y^{2}}}_{d_{1}}+\underbrace{\sqrt{\left(x-a\right)^{2}+y^{2}}}_{d_{2}}+\underbrace{\sqrt{\left(x-b\right)^{2}+\left(y-c\right)^{2}}}_{d_{3}}
-\]
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename PuntoFermat7.png
+	lyxscale 30
+	width 4.5cm
+	rotateOrigin center
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout BeginFrame
+Respuesta
 \end_layout
 
 \begin_layout Pause
@@ -1665,27 +1921,53 @@ f\left(x,y\right)=\underbrace{\sqrt{x^{2}+y^{2}}}_{d_{1}}+\underbrace{\sqrt{\lef
 \end_layout
 
 \begin_layout Standard
-Analizando la forma del 
-\color red
-gradiente
-\color inherit
-, obtenemos consecuencias como: 
-\end_layout
+Si el triángulo tiene todos sus ángulos menores que 
+\begin_inset Formula $120\text{°\ }$
+\end_inset
 
-\begin_layout Standard
-Si el mínimo 
-\emph on
-\color red
-estuviera
-\emph default
-\color inherit
- en el interior del triángulo, el ángulo con vértice en este punto que subtiende
- a los lados del triángulo sería de 
-\begin_inset Formula $120°$
+entonces el mínimo debe estar en el interior del triángulo 
+\begin_inset Formula $ABC$
 \end_inset
 
 .
- 
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+El mínimo es tal que el ángulo con vértice en este punto que subtiende a
+ los lados del triángulo es de 
+\begin_inset Formula $120°$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Respuesta
 \end_layout
 
 \begin_layout Pause
@@ -1741,106 +2023,33 @@ status open
 
 \end_layout
 
-\begin_layout BeginFrame
-Exploración visual
-\end_layout
-
-\begin_layout ColumnsTopAligned
-
-\end_layout
-
-\begin_deeper
-\begin_layout Column
-5cm
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename /home/cristina/PresRioja/curvNiv2.png
-	width 5cm
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Column
-5cm
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename /home/cristina/PresRioja/curvNiv4.png
-	width 5cm
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout ColumnsTopAligned
-
-\end_layout
-
-\begin_layout BeginFrame
-Resolución Geométrica
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename /home/cristina/PresRioja/FermatGeo.png
-	lyxscale 50
-	height 7cm
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Optimización de Áreas
 \end_layout
 
 \begin_layout BeginFrame
-Un ejemplo
+El Triángulo 
+\begin_inset Quotes eld
+\end_inset
+
+Menor
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
-\begin_layout Theorem*
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
 
 \emph on
 Sea 
@@ -1856,6 +2065,21 @@ Sea
 \end_inset
 
 un punto del primer cuadrante.
+
+\emph default
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
  Entre todos los triángulos que tienen al punto 
 \emph default
 
@@ -1876,39 +2100,327 @@ en uno de sus lados, y los lados restantes sobre los ejes de coordenadas,
 Resolución
 \end_layout
 
+\begin_layout FrameSubtitle
+Construimos de un triángulo con 
+\begin_inset Formula $A$
+\end_inset
+
+ punto medio del lado opuesto al origen
+\end_layout
+
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
+\align center
 \begin_inset Graphics
-	filename /home/cristina/PresRioja/TriCoorFig1.PNG
+	filename TriRec1.png
 	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption
+\begin_layout BeginFrame
+Resolución
+\end_layout
 
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Área-mínima"
+\begin_layout FrameSubtitle
+Construimos de un triángulo con 
+\begin_inset Formula $A$
+\end_inset
+
+ punto medio del lado opuesto al origen
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TriRec2.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
 
 \end_inset
 
-Área mínima
+
 \end_layout
+
+\begin_layout BeginFrame
+Resolución
+\end_layout
+
+\begin_layout FrameSubtitle
+Construimos de un triángulo con 
+\begin_inset Formula $A$
+\end_inset
+
+ punto medio del lado opuesto al origen
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TriRec3.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
 
 \end_inset
 
 
 \end_layout
+
+\begin_layout BeginFrame
+Resolución
+\end_layout
+
+\begin_layout FrameSubtitle
+Construimos de un triángulo con 
+\begin_inset Formula $A$
+\end_inset
+
+ punto medio del lado opuesto al origen
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename TriRec4.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Resolución
+\end_layout
+
+\begin_layout FrameSubtitle
+Construimos de un triángulo con 
+\begin_inset Formula $A$
+\end_inset
+
+ punto medio del lado opuesto al origen
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MinTri1.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Resolución
+\end_layout
+
+\begin_layout FrameSubtitle
+Contruimos un triángulo tal que 
+\begin_inset Formula $A$
+\end_inset
+
+ está en el lado opuesto al origen pero no es punto medio
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MinTri2.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Resolución
+\end_layout
+
+\begin_layout FrameSubtitle
+Comparamos los triángulos
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MinTri3.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Resolución
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\emph on
+\color blue
+\lang spanish-mexico
+El triángulo de menor área es el que tiene a 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+como punto medio de la hipotenusa
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename MinTri4.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Consecuencia
+\end_layout
+
+\begin_layout Theorem
+
+\emph on
+Sea un ángulo 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+y un punto 
+\emph default
+
+\begin_inset Formula $A^{\prime}$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+en el interior de 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+.
+ De todos los triángulos tales que comparten el ángulo 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+y el lado opuesto 
+\emph default
+
+\begin_inset Formula $BC$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+contiene a 
+\emph default
+
+\begin_inset Formula $A^{\prime}$
+\end_inset
+
+
+\emph on
+, el de menor área es el que tiene a 
+\emph default
+
+\begin_inset Formula $A^{\prime}$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+como punto medio de 
+\emph default
+
+\begin_inset Formula $BC$
+\end_inset
+
+
+\emph on
+.
+
+\emph default
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Area Minima.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
 
 \end_inset
 
@@ -1920,10 +2432,28 @@ Optimización de Volúmenes
 \end_layout
 
 \begin_layout BeginFrame
-Tetraedro de Volumen Mínimo
+El Tetraedro 
+\begin_inset Quotes eld
+\end_inset
+
+Menor
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
-\begin_layout Theorem*
+\begin_layout ExampleBlock
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
 
 \emph on
 Sea 
@@ -1934,7 +2464,26 @@ Sea
 
 
 \emph on
- un punto del primer octante.
+
+\begin_inset space \space{}
+\end_inset
+
+un punto del primer octante.
+
+\emph default
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\emph on
  Entre todos los tetraedros que tienen al punto 
 \emph default
 
@@ -1943,12 +2492,12 @@ Sea
 
 
 \emph on
- en una de sus caras, y los caras restantes sobre los plano coordenados,
+ en una de sus caras, y las caras restantes sobre los plano coordenados,
  encontrar el de menor volumen.
 \end_layout
 
 \begin_layout BeginFrame
-Ejemplos
+Resultado General
 \end_layout
 
 \begin_layout ColumnsTopAligned
@@ -1957,60 +2506,94 @@ Ejemplos
 
 \begin_deeper
 \begin_layout Column
-5cm
+4cm
 \end_layout
 
-\end_deeper
-\begin_layout ColumnsTopAligned
-\begin_inset Float figure
-wide false
-sideways false
-status open
+\begin_layout Theorem
 
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename tetraPresent4ta.png
-	lyxscale 90
-	width 8cm
-	groupId PosOptima
-
+\emph on
+Sea un ángul
+\emph default
+o triedro 
+\begin_inset Formula $A$
 \end_inset
 
 
-\end_layout
+\emph on
+ de vértice 
+\begin_inset Formula $O$
+\end_inset
 
-\begin_layout Plain Layout
+ y un punto 
+\emph default
 
-\end_layout
-
+\begin_inset Formula $A^{\prime}$
 \end_inset
 
 
+\emph on
+ en el interior de 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+.
+ De todos los tetraedros tales que comparten el ángulo 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+,
+\emph on
+ y la cara opuesta 
+\emph default
+a 
+\begin_inset Formula $O$
+\end_inset
+
+
+\emph on
+ contiene a 
+\begin_inset Formula $A'$
+\end_inset
+
+, el de menor volumen es el que tiene a 
+\emph default
+
+\begin_inset Formula $A^{\prime}$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+como baricentro de dicha cara.
+
+\emph default
+ 
 \end_layout
 
-\begin_deeper
 \begin_layout Column
-5cm
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename /home/cristina/PresRioja/tetraPresent5ta.PNG
-	lyxscale 90
-	width 8cm
-	groupId PosOptima
-
-\end_inset
-
-
+6cm
 \end_layout
 
 \end_deeper
 \begin_layout ColumnsTopAligned
+\begin_inset Graphics
+	filename tetraPresent1ra.PNG
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
 
-\end_layout
+\end_inset
 
-\begin_layout ColumnsTopAligned
 
 \end_layout
 
@@ -2045,7 +2628,7 @@ status open
 \end_inset
 
 problemas de este tipo.
- Resolviendo algunos y tratando de resolver otros.
+ Resolviendo algunos y tratando de resolver otros
 \end_layout
 
 \begin_layout Pause
@@ -2063,7 +2646,7 @@ status open
 
 \end_inset
 
-Tratando de convencer
+Preparando un curso de extensión
 \begin_inset ERT
 status open
 
@@ -2074,7 +2657,7 @@ status open
 
 \end_inset
 
-gente que le interese este tipo de actividad
+para gente interesada en este tipo de actividad
 \end_layout
 
 \begin_layout BeginFrame

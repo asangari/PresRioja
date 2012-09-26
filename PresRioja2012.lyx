@@ -729,13 +729,23 @@ key "vasiliev1980rectas"
 
 \end_layout
 
-\begin_layout Standard
-\align center
+\begin_layout ExampleBlock
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
 	filename Gato y Raton Trans.png
 	lyxscale 20
 	scale 20
 	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
