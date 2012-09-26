@@ -1,0 +1,80 @@
+%% LyX 2.0.0 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{beamer}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\LyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+ % this default might be overridden by plain title style
+ \newcommand\makebeamertitle{\frame{\maketitle}}%
+ \AtBeginDocument{
+   \let\origtableofcontents=\tableofcontents
+   \def\tableofcontents{\@ifnextchar[{\origtableofcontents}{\gobbletableofcontents}}
+   \def\gobbletableofcontents#1{\origtableofcontents}
+ }
+ \long\def\lyxframe#1{\@lyxframe#1\@lyxframestop}%
+ \def\@lyxframe{\@ifnextchar<{\@@lyxframe}{\@@lyxframe<*>}}%
+ \def\@@lyxframe<#1>{\@ifnextchar[{\@@@lyxframe<#1>}{\@@@lyxframe<#1>[]}}
+ \def\@@@lyxframe<#1>[{\@ifnextchar<{\@@@@@lyxframe<#1>[}{\@@@@lyxframe<#1>[<*>][}}
+ \def\@@@@@lyxframe<#1>[#2]{\@ifnextchar[{\@@@@lyxframe<#1>[#2]}{\@@@@lyxframe<#1>[#2][]}}
+ \long\def\@@@@lyxframe<#1>[#2][#3]#4\@lyxframestop#5\lyxframeend{%
+   \frame<#1>[#2][#3]{\frametitle{#4}#5}}
+ \def\lyxframeend{} % In case there is a superfluous frame end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{movie15}
+\usetheme[height=12mm]{Rochester}
+\useinnertheme{rectangles}
+\usefonttheme{structurebold}
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamercovered{transparent}
+\setbeamertemplate{navigation symbols}{}
+
+
+
+\definecolor{oxygengreen}{HTML}{00BF00}
+\definecolor{oxygengray}{HTML}{686868}
+\definecolor{oxygenlightgray}{HTML}{eeeeee}
+
+\definecolor{oxygenblue}{HTML}{236EAF}
+\setbeamercolor*{Title bar}{fg=white,bg=oxygenblue}
+\setbeamercolor*{Location bar}{fg=oxygenorange,bg=oxygenlightgray}
+\setbeamercolor*{frametitle}{parent=Title bar}
+\setbeamercolor*{block title}{bg=oxygenblue,fg=white}
+\setbeamercolor*{block body}{bg=oxygenlightgray,fg=oxygengray}
+\setbeamercolor*{normal text}{bg=white,fg=oxygengray}
+\setbeamercolor*{section in head/foot}{bg=oxygenblue,fg=white}
+\usecolortheme[named=oxygengreen]{structure}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{\LyX{} - Embed movies in PDF}
+
+
+\subtitle{using latex-beamer and movie15}
+
+\makebeamertitle
+
+\lyxframeend{}\lyxframe{Big Buck Bunny}
+
+\noindent \begin{center}
+{\small \begin{figure}[ht] 
+\includemovie[poster,text={\includegraphics[width=8cm, height=6cm]{/home/antonio/Documentos/movie15/bbb-splash-thumb.png}},autoplay,mouse=true]{8cm}{6cm}
+{/home/antonio/Documentos/movie15/vvv.mpeg}
+\end{figure}}
+\par\end{center}{\small \par}
+
+
+\lyxframeend{}
+\end{document}
