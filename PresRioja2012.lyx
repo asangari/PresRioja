@@ -4,6 +4,16 @@
 \begin_header
 \textclass beamer
 \begin_preamble
+
+\usetheme{Warsaw}
+% or ...
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+
+\theoremstyle{definition}
+\newtheorem{defin}{Definici\'on}
+
 \theoremstyle{theorem}
 \newtheorem{teo}{Teorema}
 
@@ -164,11 +174,11 @@ opcional, sólo para títulos largos
 \begin_layout Subtitle
 
 \size large
-Eje temático: Resolución de Problemas
+Eje temático: Construcciones Geométricas
 \end_layout
 
 \begin_layout Author
-Antonio Sángari
+Antonio Sángari 
 \begin_inset ERT
 status collapsed
 
@@ -182,16 +192,6 @@ and
 \end_inset
 
  Cristina Egüez
-\begin_inset Flex InstituteMark
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
 \begin_inset Note Note
 status collapsed
 
@@ -248,9 +248,8 @@ Autor et al.
 \end_layout
 
 \begin_layout Institute
-Dpto.
- de Matemática, Fac.
- de Ciencias Exactas
+Dpto de Matemática, Fac.
+ Ciencias Exactas
 \begin_inset Newline newline
 \end_inset
 
@@ -294,10 +293,7 @@ opcional, aunque generalmente necesario
 \end_layout
 
 \begin_layout Date
-\begin_inset Formula $7{}^{as}$
-\end_inset
-
- Jornadas Nacionales de Matemática - UNLaR, 2012
+7° Jornadas Nacionales de Matemática - UNLaR, 2012
 \begin_inset Note Note
 status collapsed
 
@@ -797,10 +793,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename GatoGral9.png
 	lyxscale 20
@@ -810,10 +802,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -831,10 +819,6 @@ Preparación
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -849,10 +833,6 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -867,10 +847,6 @@ Preparación
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -885,10 +861,6 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -903,10 +875,6 @@ Preparación
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -921,10 +889,6 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -939,10 +903,6 @@ Preparación
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -957,10 +917,6 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -975,10 +931,6 @@ Preparación
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
