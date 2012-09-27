@@ -4,43 +4,26 @@
 \begin_header
 \textclass beamer
 \begin_preamble
-
-\usetheme{Warsaw}
-% or ...
-
-\setbeamercovered{transparent}
-% or whatever (possibly just delete it)
-
-\theoremstyle{definition}
-
-\newtheorem{defin}{Definici\'on}
-
-
 \theoremstyle{theorem}
-
 \newtheorem{teo}{Teorema}
 
-
 \theoremstyle{theorem}
-
 \newtheorem{cor}{Corolario}
 
-
 \theoremstyle{theorem}
-
 \newtheorem{ejem}{Ejemplo}
 
-
 \theoremstyle{theorem}
-
 \newtheorem{prop}{Proposici\'on}
 
-
 \renewenvironment{example}{\begin{ejem}}{\end{ejem}}
-
 \renewenvironment{theorem}{\begin{teo}}{\end{teo}}
-
 \renewenvironment{corollary}{\begin{cor}}{\end{cor}}
+
+\colorlet{mystruct}{structure} % Guarda la estructura actual 
+\colorlet{structure}{magenta} % Nueva estructura 
+\usestructuretemplate{\color{structure}}{} 
+\beamertemplateshadingbackground{green!50}{white!50}
 \end_preamble
 \use_default_options false
 \begin_modules
@@ -1393,8 +1376,8 @@ status open
 
 \end_inset
 
- para que concluya que el punto buscado es el límite cuando dicho triángulo
- degenera en un punto.
+ a conjeturar que el punto buscado es el límite cuando dicho triángulo degenera
+ en un punto.
  
 \end_layout
 
@@ -1577,7 +1560,7 @@ status open
 
 \end_inset
 
-Por lo tanto, el punto buscado sería 
+Por lo tanto, el punto buscado es 
 \begin_inset ERT
 status open
 
