@@ -1,0 +1,22 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\pagestyle{empty}
+\begin{document}
+\newrgbcolor{zzttqq}{0.6 0.2 0}
+\psset{xunit=1.0cm,yunit=1.0cm,algebraic=true,dotstyle=o,dotsize=3pt 0,linewidth=0.8pt,arrowsize=3pt 2,arrowinset=0.25}
+\begin{pspicture*}(-4.3,-5.88)(21.72,6.3)
+\pspolygon[linecolor=zzttqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.1](1.08,-0.7)(3.86,4.76)(8.26,-1.14)
+\psline[linecolor=zzttqq](1.08,-0.7)(3.86,4.76)
+\psline[linecolor=zzttqq](3.86,4.76)(8.26,-1.14)
+\psline[linecolor=zzttqq](8.26,-1.14)(1.08,-0.7)
+\begin{scriptsize}
+\psdots[dotstyle=*,linecolor=blue](1.08,-0.7)
+\rput[bl](1.16,-0.58){\blue{$A$}}
+\psdots[dotstyle=*,linecolor=blue](3.86,4.76)
+\rput[bl](3.94,4.88){\blue{$B$}}
+\psdots[dotstyle=*,linecolor=blue](8.26,-1.14)
+\rput[bl](8.34,-1.02){\blue{$C$}}
+\end{scriptsize}
+\end{pspicture*}
+\end{document}
