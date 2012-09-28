@@ -168,7 +168,7 @@ key "boyer2011history"
 
 ].
  Además, sin necesidad de incurrir en el campo de las matemáticas, es usual
- preguntarse cual es el mejor uso que podemos dar a los recursos que poseemos
+ preguntarse cuál es el mejor uso que podemos dar a los recursos que poseemos
  para resolver un problema de la vida cotidiana.
  
 \end_layout
@@ -176,15 +176,15 @@ key "boyer2011history"
 \begin_layout Standard
 Por otro lado, cuando hablamos de optimización, a la mayoría de nosotros,
  se nos imagina el uso del cálculo diferencial.
- Sin embargo, como mostraremos en próximas secciones de este trabajo, puede
+ Sin embargo, como mostraremos en próximas secciones de este trabajo, pueden
  plantearse problemas clásicos del cálculo diferencial pero por métodos
  de geometría sintética elemental.
 \end_layout
 
 \begin_layout Standard
-Debido a que los autores de este trabajo son principalmente docentes, entendemos
- que debemos organizar nuestros esfuerzos para que los estudiantes que tenemos
- asignados reciban una educación de la mejor calidad posible.
+Debido a que principalmente somos docentes, entendemos que debemos organizar
+ nuestros esfuerzos para que los estudiantes que tenemos asignados reciban
+ una educación de la mejor calidad posible.
  El camino que nos pareció más recomendable es plantear problemas desde
  distintas perspectivas para sacar el máximo provecho posible.
  Nuestro objetivo es proponer estos problemas a los estudiantes del Profesorado
@@ -246,8 +246,20 @@ target "geogebra.org"
 
 \begin_layout Standard
 Una estrategia puede ser mostrar a nuestros estudiantes que el punto buscado
- se determina encontrando el radio menor para el cual en estos círculos
- aparece un punto común.
+ se determina encontrando el menor radio de circunferencias congruentes
+ de centro 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $B$
+\end_inset
+
+ y 
+\begin_inset Formula $C$
+\end_inset
+
+ para el cual, en estos círculos aparece un punto común.
  En la figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -428,7 +440,7 @@ El punto de mayor distancia al lado más cercano
 \end_layout
 
 \begin_layout Standard
-Este problema, en ves de ser un problema de minimización como es el problema
+Este problema, en vez de ser un problema de minimización como es el problema
  anterior, es un problema de maximización.
  
 \end_layout
@@ -459,7 +471,7 @@ reference "fig:mayordist"
 
 \begin_layout Standard
 El estudiante debe ser guiado a concluir que en cada posición de las rectas
- paralelas, el punto buscado para la guarida del osos se debe encontrarse
+ paralelas, el punto buscado para la guarida del osos se debe encontrar
  dentro del triángulo determinado por las rectas paralelas.
  Es natural conjeturar, y los estudiantes deberían ser guiados a concluir
  que el punto será el límite cuando dicho triángulo degenera en un punto.
@@ -490,7 +502,7 @@ Una formulación de este interesante problema podría ser
 \begin_inset Quotes eld
 \end_inset
 
-Dado un triángulo acutángulo, encontrar un punto tal que la 
+Dado un triángulo, encontrar un punto tal que la 
 \emph on
 suma
 \emph default
@@ -547,13 +559,12 @@ key "sangari2012optimizsincd"
 \end_layout
 
 \begin_layout Standard
-Vale indicar en este momento que puede causar una cierta angustia en los
- estudiantes cuando un problema se lo saca del contexto tradicional y se
- trata de enfocarlo desde otra perspectiva.
- Sin embargo, los autores de este trabajo consideran que esto, lejos de
- ser perjudicial, permite movilizar estructuras mentales más abarcativas
- y sofisticadas; pues queda la actitud que un problema, es un problema y
- no un ejemplo de un dado tema.
+Vale indicar en este momento, que cuando se saca un problema del contexto
+ tradicional y se trata de enfocarlo desde otra perspectiva puede causar
+ cierta angustia en los estudiantes.
+ Sin embargo, consideramos que esto, lejos de ser perjudicial, permite movilizar
+ estructuras mentales más abarcativas y sofisticadas; pues queda la actitud
+ que un problema, es un problema y no un ejemplo de un dado tema.
  
 \end_layout
 
@@ -639,7 +650,7 @@ entonces el mínimo debe estar en alguno de los puntos
 \end_inset
 
 .
- Recordando el muy conocido resultado de geometría elemental de 
+ Recordando el muy conocido resultado de geometría elemental: 
 \begin_inset Quotes eld
 \end_inset
 
@@ -956,15 +967,8 @@ Problemas de optimización de áreas y volúmenes
 \end_layout
 
 \begin_layout Standard
-Un problema que usualmente, pero no siempre por ejemplo [
-\begin_inset CommandInset citation
-LatexCommand citet
-key "vasiliev1980rectas"
-
-\end_inset
-
-], se resuelve con el auxilio del cálculo diferencial usando el método de
- los multilpicadores de Lagrange, es el siguiente:
+Un problema que usualmente se resuelve con el auxilio del cálculo diferencial
+ usando el método de los multilpicadores de Lagrange, es el siguiente:
 \end_layout
 
 \begin_layout Standard
@@ -1185,7 +1189,11 @@ un punto del primer octante.
 \end_inset
 
 en una de sus caras, y los caras restantes sobre los plano coordenados,
- encontrar el de menor área.
+ encontrar el de menor 
+\color black
+volumen
+\color inherit
+.
 \end_layout
 
 \begin_layout Standard
@@ -1217,13 +1225,12 @@ Palabras Finales
 \begin_layout Standard
 La optimización con métodos de geometría elemental sintética tiene por si
  el valor de la economía de recursos.
- Además, es común que en el medio de una resolución algebraica o analítica
- es común perderse del centro del problema en la maraña de cálculos.
+ Además, es común que en medio de una resolución algebraica o analítica
+ perder el centro del problema en la maraña de cálculos.
  Por otro lado, con los recursos gráficos y con la posibilidad de explorar
  una determinada situación geométrica con soft educativo y libre, la enseñanza
  se vuelve cualitativamente superior a la que se impartía en otras épocas.
- Estas son las razones que impulsaron a los autores de este trabajo a presentar
- este material
+ Estas son las razones que nos impulsaron a presentar este material
 \end_layout
 
 \begin_layout Standard

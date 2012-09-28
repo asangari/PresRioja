@@ -185,7 +185,11 @@ Eje temático: Resolución de Problemas
 \end_layout
 
 \begin_layout Author
+<<<<<<< HEAD
 Antonio Sángari
+=======
+Antonio Sángari 
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \begin_inset ERT
 status collapsed
 
@@ -199,6 +203,7 @@ and
 \end_inset
 
  Cristina Egüez
+<<<<<<< HEAD
 \begin_inset Flex InstituteMark
 status collapsed
 
@@ -209,6 +214,8 @@ status collapsed
 \end_inset
 
 
+=======
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \begin_inset Note Note
 status collapsed
 
@@ -265,9 +272,14 @@ Autor et al.
 \end_layout
 
 \begin_layout Institute
+<<<<<<< HEAD
 Dpto.
  de Matemática, Fac.
  de Ciencias Exactas
+=======
+Dpto de Matemática, Fac.
+ Ciencias Exactas
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \begin_inset Newline newline
 \end_inset
 
@@ -754,6 +766,7 @@ status open
 
 \begin_layout BeginFrame
 Preparación
+<<<<<<< HEAD
 \end_layout
 
 \begin_layout Standard
@@ -762,6 +775,16 @@ Antes de pensar en la solución, hacemos una exploración previa usando, por
 \end_layout
 
 \begin_layout Standard
+=======
+\end_layout
+
+\begin_layout Standard
+Antes de pensar en la solución, hacemos una exploración previa usando, por
+ ejemplo, un programa como GeoGebra.
+\end_layout
+
+\begin_layout Standard
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \align center
 \begin_inset Graphics
 	filename GatoGral11.png
@@ -792,6 +815,11 @@ status open
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
+<<<<<<< HEAD
+
+\end_inset
+
+=======
 
 \end_inset
 
@@ -812,10 +840,6 @@ Preparación
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -827,10 +851,7 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 
 \end_layout
 
@@ -848,10 +869,6 @@ Preparación
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -867,11 +884,22 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename GatoGral9.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+
+<<<<<<< HEAD
+\end_inset
+
 
 \end_layout
 
-\end_inset
+\begin_layout Plain Layout
 
+=======
 
 \end_layout
 
@@ -884,10 +912,6 @@ Preparación
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -900,10 +924,7 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \end_layout
 
 \end_inset
@@ -920,10 +941,6 @@ Preparación
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -939,9 +956,56 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename GatoGral8.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+
+<<<<<<< HEAD
+\end_inset
+
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+=======
+
+\end_layout
+
+\begin_layout BeginFrame
+Preparación
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename GatoGral5.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+
+\end_inset
+
+
+\end_layout
+
+<<<<<<< HEAD
+\begin_layout BeginFrame
+Preparación
+\end_layout
+
+=======
 \end_inset
 
 
@@ -949,6 +1013,177 @@ status open
 
 \begin_layout BeginFrame
 Preparación
+\end_layout
+
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename GatoGral4.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename GatoGral7.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+
+\end_inset
+
+<<<<<<< HEAD
+
+\end_layout
+=======
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+
+\end_layout
+
+<<<<<<< HEAD
+=======
+\begin_layout BeginFrame
+Caso 1.
+ Triángulo acutángulo
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename GatoGral3.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+<<<<<<< HEAD
+Preparación
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+=======
+Caso 1.
+ Triángulo acutángulo
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename GatoGral2.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+
+\end_inset
+
+<<<<<<< HEAD
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename GatoGral6.png
+=======
+
+\end_layout
+
+\begin_layout BeginFrame
+Caso 1.
+ Triángulo acutángulo
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename GatoGral1.png
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+
+\end_inset
+
+<<<<<<< HEAD
+
+\end_layout
+=======
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+
+\end_layout
+
+<<<<<<< HEAD
+=======
+\begin_layout BeginFrame
+Caso 2.
+ Triángulo rectángulo
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename GatoRectangulo.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+<<<<<<< HEAD
+Preparación
+=======
+Caso 3.
+ Triángulo obtusángulo
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename GatoObt.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+En Resumen
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \end_layout
 
 \begin_layout Standard
@@ -971,8 +1206,14 @@ status open
 
 \end_inset
 
+<<<<<<< HEAD
 
 \end_layout
+=======
+Si el triángulo es acutángulo
+\begin_inset ERT
+status open
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 
 \begin_layout Plain Layout
 
@@ -980,6 +1221,7 @@ status open
 
 \end_inset
 
+<<<<<<< HEAD
 
 \end_layout
 
@@ -991,6 +1233,17 @@ Preparación
 \begin_inset Float figure
 wide false
 sideways false
+=======
+ el gato debiera situarse en el circuncentro del triángulo.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 status open
 
 \begin_layout Plain Layout
@@ -1005,19 +1258,34 @@ status open
 	rotateOrigin center
 	groupId GatoGral
 
+<<<<<<< HEAD
 \end_inset
+=======
+Si el triángulo es rectángulo
+\begin_inset ERT
+status open
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 
 
 \end_layout
 
 \end_inset
 
+<<<<<<< HEAD
 
 \end_layout
 
 \begin_layout BeginFrame
 Caso 1.
  Triángulo acutángulo
+=======
+ el gato debiera situarse en el circuncentro del triángulo, es decir en
+ el punto medio de la hipotenusa.
+\end_layout
+
+\begin_layout Pause
+
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \end_layout
 
 \begin_layout Standard
@@ -1031,6 +1299,14 @@ Caso 1.
 
 \end_inset
 
+<<<<<<< HEAD
+=======
+Si el triángulo es obtusángulo
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 
 \end_layout
 
@@ -1039,6 +1315,7 @@ Caso 1.
  Triángulo acutángulo
 \end_layout
 
+<<<<<<< HEAD
 \begin_layout Standard
 \align center
 \begin_inset Graphics
@@ -1047,156 +1324,10 @@ Caso 1.
 	width 8cm
 	rotateOrigin center
 	groupId GatoGral
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-Caso 1.
- Triángulo acutángulo
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename GatoGral1.png
-	lyxscale 20
-	width 8cm
-	rotateOrigin center
-	groupId GatoGral
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-Caso 2.
- Triángulo rectángulo
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename GatoRectangulo.png
-	lyxscale 20
-	width 8cm
-	rotateOrigin center
-	groupId GatoGral
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-Caso 3.
- Triángulo obtusángulo
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename GatoObt.png
-	lyxscale 20
-	width 8cm
-	rotateOrigin center
-	groupId GatoGral
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-En Resumen
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
-\end_inset
-
-Si el triángulo es acutángulo
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
- el gato debiera situarse en el circuncentro del triángulo.
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
-\end_inset
-
-Si el triángulo es rectángulo
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
- el gato debiera situarse en el circuncentro del triángulo, es decir en
- el punto medio de la hipotenusa.
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
-\end_inset
-
-Si el triángulo es obtusángulo
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
+=======
  el gato debiera situarse en el punto medio del lado mayor.
 \end_layout
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 
 \begin_layout Subsection
 El Oso y las Vías del Ferrocarril
@@ -1215,8 +1346,318 @@ status open
 {
 \end_layout
 
+<<<<<<< HEAD
+\begin_layout BeginFrame
+Caso 1.
+ Triángulo acutángulo
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename GatoGral1.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+
 \end_inset
 
+=======
+\end_inset
+
+En una parte del bosque, 
+\begin_inset ERT
+status open
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+<<<<<<< HEAD
+\begin_layout BeginFrame
+Caso 2.
+ Triángulo rectángulo
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename GatoRectangulo.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+=======
+\end_inset
+
+limitada por tres ferrocarriles rectos, vive un oso.
+ ¿En qué punto debe hacerse la guarida para encontrarse a mayor distancia
+ del ferrocarril más cercano? 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "vasiliev1980rectas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ExampleBlock
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename vias y oso trans.png
+	lyxscale 70
+	scale 50
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+
+\end_inset
+
+
+\end_layout
+
+<<<<<<< HEAD
+\begin_layout BeginFrame
+Caso 3.
+ Triángulo obtusángulo
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename GatoObt.png
+	lyxscale 20
+	width 8cm
+	rotateOrigin center
+	groupId GatoGral
+
+=======
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+<<<<<<< HEAD
+En Resumen
+=======
+Preparación
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+Si el triángulo es acutángulo
+=======
+Este problema, 
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+ el gato debiera situarse en el circuncentro del triángulo.
+=======
+ a diferencia del anterior, es de maximización.
+ 
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\end_layout
+
+\begin_layout BeginFrame
+Preparación
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+<<<<<<< HEAD
+=======
+\end_inset
+
+En este caso, debemos advertir que el lugar geométrico 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+de los puntos que equidistan de una recta dada están sobre un par de rectas
+ paralelas.
+\end_layout
+
+\begin_layout BeginFrame
+Preparación
+\end_layout
+
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+Si el triángulo es rectángulo
+=======
+Se induce al estudiante 
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+ el gato debiera situarse en el circuncentro del triángulo, es decir en
+ el punto medio de la hipotenusa.
+\end_layout
+
+\begin_layout Pause
+
+=======
+ para concluir que en cada posición de las rectas paralelas, el punto buscado
+ para la guarida del oso debe encontrarse dentro del triángulo determinado
+ por las rectas paralelas.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ProOsoGral.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Exploración
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+Si el triángulo es obtusángulo
+=======
+Se guía al estudiante 
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+ el gato debiera situarse en el punto medio del lado mayor.
+\end_layout
+
+\begin_layout Subsection
+El Oso y las Vías del Ferrocarril
+\end_layout
+
+\begin_layout BeginFrame
+Planteo del Problema
+\end_layout
+
+\begin_layout ExampleBlock
+=======
+ a conjeturar que el punto buscado es el límite cuando dicho triángulo degenera
+ en un punto.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ProOsoGral Opt.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Exploración
+\end_layout
+
+\begin_layout Block
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
 En una parte del bosque, 
 \begin_inset ERT
 status open
@@ -1244,6 +1685,10 @@ key "vasiliev1980rectas"
 \begin_inset Float figure
 wide false
 sideways false
+=======
+La pregunta que se puede plantear es: 
+\begin_inset ERT
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 status open
 
 \begin_layout Plain Layout
@@ -1255,10 +1700,15 @@ status open
 \end_inset
 
 
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \end_layout
 
 \end_inset
 
+<<<<<<< HEAD
 
 \end_layout
 
@@ -1278,16 +1728,40 @@ status open
 \end_inset
 
 Este problema, 
+=======
+Este punto, ¿es un punto característico?
+\end_layout
+
+\begin_layout BeginFrame
+Solución
+\end_layout
+
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+4cm
+\end_layout
+
+\begin_layout Block
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
+<<<<<<< HEAD
 }
+=======
+{
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \end_layout
 
 \end_inset
 
+<<<<<<< HEAD
  a diferencia del anterior, es de maximización.
  
 \end_layout
@@ -1308,170 +1782,17 @@ status open
 \end_inset
 
 En este caso, debemos advertir que el lugar geométrico 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-de los puntos que equidistan de una recta dada están sobre un par de rectas
- paralelas.
-\end_layout
-
-\begin_layout BeginFrame
-Preparación
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
-\end_inset
-
-Se induce al estudiante 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
- para concluir que en cada posición de las rectas paralelas, el punto buscado
- para la guarida del oso debe encontrarse dentro del triángulo determinado
- por las rectas paralelas.
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename ProOsoGral.png
-	lyxscale 30
-	width 6cm
-	rotateOrigin center
-	groupId oso
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-Exploración
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
-\end_inset
-
-Se guía al estudiante 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
- para que concluya que el punto buscado es el límite cuando dicho triángulo
- degenera en un punto.
- 
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename ProOsoGral Opt.png
-	lyxscale 30
-	width 6cm
-	rotateOrigin center
-	groupId oso
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-Exploración
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
-\end_inset
-
-La pregunta que se puede plantear es: 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-Este punto, ¿es un punto característico?
-\end_layout
-
-\begin_layout BeginFrame
-Solución
-\end_layout
-
-\begin_layout ColumnsTopAligned
-
-\end_layout
-
-\begin_deeper
-\begin_layout Column
-4cm
-\end_layout
-
-\begin_layout Block
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\end_layout
-
-\end_inset
-
+=======
 Este punto se encuentra 
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
 }
+<<<<<<< HEAD
+=======
 \end_layout
 
 \end_inset
@@ -1483,6 +1804,7 @@ a igual distancia de los lados del triángulo.
 
 \begin_layout Column
 6cm
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \end_layout
 
 \begin_layout Standard
@@ -1495,6 +1817,14 @@ a igual distancia de los lados del triángulo.
 
 \end_inset
 
+<<<<<<< HEAD
+de los puntos que equidistan de una recta dada están sobre un par de rectas
+ paralelas.
+\end_layout
+
+\begin_layout BeginFrame
+Preparación
+=======
 
 \end_layout
 
@@ -1510,6 +1840,7 @@ Solución
 \begin_deeper
 \begin_layout Column
 4cm
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \end_layout
 
 \begin_layout Block
@@ -1523,7 +1854,11 @@ status open
 
 \end_inset
 
+<<<<<<< HEAD
+Se induce al estudiante 
+=======
 Otra manera es notar que 
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \begin_inset ERT
 status open
 
@@ -1534,6 +1869,17 @@ status open
 
 \end_inset
 
+<<<<<<< HEAD
+ para concluir que en cada posición de las rectas paralelas, el punto buscado
+ para la guarida del oso debe encontrarse dentro del triángulo determinado
+ por las rectas paralelas.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ProOsoGral.png
+=======
 los lados con sus paralelas determinan un rombo.
  Se observa que la bisectriz de un ángulo de 
 \begin_inset Formula $ABC$
@@ -1552,6 +1898,7 @@ los lados con sus paralelas determinan un rombo.
 \begin_layout ColumnsTopAligned
 \begin_inset Graphics
 	filename ProOso5.png
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 	lyxscale 30
 	width 6cm
 	rotateOrigin center
@@ -1560,6 +1907,284 @@ los lados con sus paralelas determinan un rombo.
 \end_inset
 
 
+\end_layout
+
+\begin_layout BeginFrame
+<<<<<<< HEAD
+Exploración
+\end_layout
+
+\begin_layout Block
+=======
+En Resumen
+\end_layout
+
+\begin_layout AlertBlock
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+Se guía al estudiante 
+=======
+Por lo tanto, el punto buscado es 
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+ para que concluya que el punto buscado es el límite cuando dicho triángulo
+ degenera en un punto.
+=======
+la intersección de las bisectrices del triángulo.
+ Es decir, el punto buscado es el incentro de ambos triángulos considerados.
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+<<<<<<< HEAD
+	filename ProOsoGral Opt.png
+=======
+	filename ProOso6.png
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+\end_layout
+
+<<<<<<< HEAD
+\begin_layout BeginFrame
+Exploración
+\end_layout
+
+\begin_layout Block
+=======
+\begin_layout Section
+Optimización de Medidas
+\end_layout
+
+\begin_layout Subsection
+El Punto de Fermat
+\end_layout
+
+\begin_layout BeginFrame
+Planteo del Problema
+\end_layout
+
+\begin_layout ExampleBlock
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+La pregunta que se puede plantear es: 
+=======
+Dado un triángulo, 
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+Este punto, ¿es un punto característico?
+\end_layout
+
+\begin_layout BeginFrame
+Solución
+\end_layout
+
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+4cm
+=======
+encontrar un punto tal que la 
+\emph on
+suma
+\emph default
+ de las distancias a los vértices sea la menor
+\end_layout
+
+\begin_layout BeginFrame
+Modos de Encarar el Problema
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+Este punto se encuentra 
+=======
+Este tipo de problema se puede atacar 
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+<<<<<<< HEAD
+\end_layout
+
+\end_inset
+
+a igual distancia de los lados del triángulo.
+ Es decir, se trata del centro de la circunferencia inscrita en el triángulo.
+ 
+\end_layout
+
+\begin_layout Column
+6cm
+=======
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ProOso Opt.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+<<<<<<< HEAD
+
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+Solución
+\end_layout
+
+\begin_layout ColumnsTopAligned
+
+\end_layout
+
+\begin_deeper
+\begin_layout Column
+4cm
+=======
+desde el punto de vista analítico como lo hace por ejemplo 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "pastor1985analisis"
+
+\end_inset
+
+ que es el tipo de resolución clásica.
+ 
+\end_layout
+
+\begin_layout Pause
+
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\end_layout
+
+\begin_layout Block
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+<<<<<<< HEAD
+Otra manera es notar que 
+=======
+Desde otra perspectiva 
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+<<<<<<< HEAD
+\end_layout
+
+\end_inset
+
+los lados con sus paralelas determinan un rombo.
+ Se observa que la bisectriz de un ángulo de 
+\begin_inset Formula $ABC$
+\end_inset
+
+ pasa por el vértice opuesto del rombo correspondiente, y por tanto contiene
+ a la bisectriz del triángulo interior.
+ 
+\end_layout
+
+\begin_layout Column
+6cm
+=======
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
+\end_layout
+
+\end_deeper
+\begin_layout ColumnsTopAligned
+\begin_inset Graphics
+	filename ProOso5.png
+	lyxscale 30
+	width 6cm
+	rotateOrigin center
+	groupId oso
+
+\end_inset
+
+
+<<<<<<< HEAD
 \end_layout
 
 \begin_layout BeginFrame
@@ -1578,11 +2203,35 @@ status open
 \end_inset
 
 Por lo tanto, el punto buscado sería 
+=======
+\begin_inset CommandInset citation
+LatexCommand citet
+key "coxeter1996geometry"
+
+\end_inset
+
+ o en 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "coxeter1971fundamentos"
+
+\end_inset
+
+ se llega a la solución geométrica.
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Block
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
+<<<<<<< HEAD
 }
 \end_layout
 
@@ -1738,6 +2387,8 @@ status open
 
 \begin_layout Plain Layout
 
+=======
+>>>>>>> 2d7ea34874fa9e542286b5bfdc3481a24f480dfd
 {
 \end_layout
 

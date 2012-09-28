@@ -1,0 +1,1248 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass amsart
+\use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\size large
+Optimización con Geometría Elemental
+\begin_inset Newline newline
+\end_inset
+
+Eje temático: Construcciones Geométricas
+\size default
+
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+Optimización
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+Antonio Sángari, Cristina Egüez
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Facultad de Ciencias Exactas - Consejo de Investigación Universidad Nacional
+ de Salta
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Dirección: San Martin 80, El Carril – Salta CP.
+ 4421, Tel 3875741002 asangari2000@gmail.com.
+\end_layout
+
+\begin_layout Keywords
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Palabras Claves: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ OPTIMIZACIÓN, RESOLUCIÓN GEOMÉTRICA, ENSEÑANZA DE LA GEOMETRÌA.
+\end_layout
+
+\begin_layout Subsection*
+Resumen
+\end_layout
+
+\begin_layout Standard
+Nuestra propuesta consiste en presentar diversas situaciones que conducen
+ a su vez a nuevos planteos, cuya solución se busca mediante la geometría
+ elemental.
+ Separaremos los problemas de optimización en dos clases: la primera que
+ presenta resoluciones de posiciones óptimas que son resueltos con geometría
+ elemental.
+ La segunda clase es un tipo de problemas que suele resolverse usando el
+ cálculo diferencial y que daremos una forma geométrica de resolución.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Introducción
+\end_layout
+
+\begin_layout Standard
+Con poca exageración se puede afirmar que las matemáticas en general se
+ desarrollaron para solucionar problemas de optimización [
+\begin_inset CommandInset citation
+LatexCommand citet
+key "boyer2011history"
+
+\end_inset
+
+].
+ Además, sin necesidad de incurrir en el campo de las matemáticas, es usual
+ preguntarse cuál es el mejor uso que podemos dar a los recursos que poseemos
+ para resolver un problema de la vida cotidiana.
+ 
+\end_layout
+
+\begin_layout Standard
+Por otro lado, cuando hablamos de optimización, a la mayoría de nosotros,
+ se nos imagina el uso del cálculo diferencial.
+ Sin embargo, como mostraremos en próximas secciones de este trabajo, pueden
+ plantearse problemas clásicos del cálculo diferencial pero por métodos
+ de geometría sintética elemental.
+\end_layout
+
+\begin_layout Standard
+Debido a que principalmente somos docentes, entendemos que debemos organizar
+ nuestros esfuerzos para que los estudiantes que tenemos asignados reciban
+ una educación de la mejor calidad posible.
+ El camino que nos pareció más recomendable es plantear problemas desde
+ distintas perspectivas para sacar el máximo provecho posible.
+ Nuestro objetivo es proponer estos problemas a los estudiantes del Profesorado
+ en Matemática que se dicta en esta Facultad, a través de la cátedra Resolución
+ de Problemas.
+\end_layout
+
+\begin_layout Subsection*
+La mejor posición 
+\end_layout
+
+\begin_layout Standard
+En el texto [
+\begin_inset CommandInset citation
+LatexCommand citet
+key "vasiliev1980rectas"
+
+\end_inset
+
+] se plantea el siguiente problema 
+\begin_inset Quotes eld
+\end_inset
+
+El ratoncito tiene tres salidas de su ratonera situados en los puntos 
+\begin_inset Formula $A,$
+\end_inset
+
+ 
+\begin_inset Formula $B$
+\end_inset
+
+ y 
+\begin_inset Formula $C$
+\end_inset
+
+ que el gato conoce.
+ ¿Dónde debe sentarse el gato para encontrar la menor distancia posible
+ de la salida más lejana?
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+En el texto de Vasiliev se encuentra la resolución del problema.
+ Sin embargo, actualmente tenemos posibilidad de explorar la solución usando
+ recursos informáticos como por ejemplo el software libre 
+\begin_inset CommandInset href
+LatexCommand href
+name "Geogebra"
+target "geogebra.org"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Una estrategia puede ser mostrar a nuestros estudiantes que el punto buscado
+ se determina encontrando el menor radio de circunferencias congruentes
+ de centro 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $B$
+\end_inset
+
+ y 
+\begin_inset Formula $C$
+\end_inset
+
+ para el cual, en estos círculos aparece un punto común.
+ En la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:minima-distancia"
+
+\end_inset
+
+ se dibuja un triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+ y tres circunferencias congruentes, cuyos radios están controlados por
+ un botón deslizante nombrado por 
+\begin_inset Formula $a$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename GatoCirc.png
+	width 8cm
+	groupId PosOptima
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:minima-distancia"
+
+\end_inset
+
+El punto de menor distancia al punto más lejano
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Al ser los puntos 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $B$
+\end_inset
+
+ y 
+\begin_inset Formula $C$
+\end_inset
+
+ arrastrables con el muose, se pueden estudiar diferentes configuraciones
+ para el triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Con 
+\emph on
+asistencia
+\emph default
+ de Geogebra y con la 
+\emph on
+inducción
+\emph default
+ por parte del docente, los estudiantes deberían llegar a la conclusión
+ de que si el triángulo es acutángulo el gato debiera situarse en el circuncentr
+o del triángulo, de otro modo en el punto medio del lado mayor del 
+\begin_inset Formula $ABC$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Una construcción interactiva se encuentra en
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.unsa.edu.ar/~asangari/ProGato.html"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un segundo ejemplo que se puede mencionar se enuncia de la siguiente manera:
+ 
+\begin_inset Quotes eld
+\end_inset
+
+En una parte del bosque, limitada por tres ferrocarriles rectos, vive un
+ oso.
+ ¿En qué punto debe hacerse la guarida para encontrarse a mayor distancia
+ del ferrocarril más cercano?
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ProOso.png
+	width 8cm
+	groupId PosOptima
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:mayordist"
+
+\end_inset
+
+El punto de mayor distancia al lado más cercano
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Este problema, en vez de ser un problema de minimización como es el problema
+ anterior, es un problema de maximización.
+ 
+\end_layout
+
+\begin_layout Standard
+Primeramente, veamos que los puntos que se encuentran a la misma distancia
+ positiva de una recta forman un par de rectas paralelas.
+ En la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:mayordist"
+
+\end_inset
+
+ se ha dibujado un triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+ y tres rectas paralelas a los correspondientes lados.
+ Las rectas paralelas distan de los lados una distancia controlada por un
+ botón deslizante 
+\begin_inset Formula $g$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+El estudiante debe ser guiado a concluir que en cada posición de las rectas
+ paralelas, el punto buscado para la guarida del osos se debe encontrar
+ dentro del triángulo determinado por las rectas paralelas.
+ Es natural conjeturar, y los estudiantes deberían ser guiados a concluir
+ que el punto será el límite cuando dicho triángulo degenera en un punto.
+ La pregunta que se puede plantear es: este punto ¿es alguno de los puntos
+ ya conocidos?.
+ La respuesta puede ser obtenida de dos maneras distintas.
+ La primera puede ser advirtiendo que este punto se encuentra a igual distancia
+ de los lados del triángulo.
+ Es decir, se trataría de un punto centro de una circunferencia inscrita
+ en el triángulo.
+ La segunda manera es notando que las paralelas a los lados con los lados
+ determinan un rombo.
+ En este caso, se nota que la bisectriz de un ángulo pasa por los vértices
+ correspondientes de los triángulos considerados.
+ Por lo tanto, el punto buscado sería la intersección de las bisectrices
+ del triángulo.
+ En otras palabras el punto buscado es el incentro de ambos triángulos considera
+dos.
+ 
+\end_layout
+
+\begin_layout Subsection*
+El punto de Fermat
+\end_layout
+
+\begin_layout Standard
+Una formulación de este interesante problema podría ser 
+\begin_inset Quotes eld
+\end_inset
+
+Dado un triángulo, encontrar un punto tal que la 
+\emph on
+suma
+\emph default
+ de las distancias a los vértices sea la menor
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Este tipo de problema se puede atacar desde el punto de vista analítico
+ como lo hace por ejemplo [
+\begin_inset CommandInset citation
+LatexCommand citet
+key "pastor1985analisis"
+
+\end_inset
+
+] que es el tipo de resolución clásica.
+ Desde otra perspectiva [
+\begin_inset CommandInset citation
+LatexCommand citet
+key "coxeter1996geometry"
+
+\end_inset
+
+] o en [
+\begin_inset CommandInset citation
+LatexCommand citet
+key "coxeter1971fundamentos"
+
+\end_inset
+
+] se llega a la solución geométrica.
+ Por último, si se dispone de programas capaces de dibujar curvas de nivel
+ se puede encontrar 
+\begin_inset Quotes eld
+\end_inset
+
+gráficamente
+\begin_inset Quotes erd
+\end_inset
+
+ el punto solución.
+ Esto último se detalla en [
+\begin_inset CommandInset citation
+LatexCommand citet
+key "sangari2012optimizsincd"
+
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Standard
+Vale indicar en este momento, que cuando se saca un problema del contexto
+ tradicional y se trata de enfocarlo desde otra perspectiva puede causar
+ cierta angustia en los estudiantes.
+ Sin embargo, consideramos que esto, lejos de ser perjudicial, permite movilizar
+ estructuras mentales más abarcativas y sofisticadas; pues queda la actitud
+ que un problema, es un problema y no un ejemplo de un dado tema.
+ 
+\end_layout
+
+\begin_layout Standard
+Bosquejemos rápidamente el método analítico:
+\end_layout
+
+\begin_layout Standard
+Sean 
+\begin_inset Formula $A\left(0,0\right),$
+\end_inset
+
+ 
+\begin_inset Formula $B\left(a,0\right)$
+\end_inset
+
+ y 
+\begin_inset Formula $C\left(b,c\right)$
+\end_inset
+
+ puntos fijos.
+ Sea 
+\begin_inset Formula $D\left(x,y\right)$
+\end_inset
+
+ un punto variable.
+ La función que tenemos que minimizar es 
+\begin_inset Formula 
+\begin{equation}
+f\left(x,y\right)=\underbrace{\sqrt{x^{2}+y^{2}}}_{d_{1}}+\underbrace{\sqrt{\left(x-a\right)^{2}+y^{2}}}_{d_{2}}+\underbrace{\sqrt{\left(x-b\right)^{2}+\left(y-c\right)^{2}}}_{d_{3}}\label{funObjetivo}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Del análisis de la forma del gradiente de 
+\begin_inset Formula $f$
+\end_inset
+
+ se llegan a consecuencias interesantes, por ejemplo:
+\end_layout
+
+\begin_layout Standard
+Si el mínimo 
+\emph on
+estuviera
+\emph default
+ en el interior del triángulo, el ángulo con vértice en este punto que subtiende
+ a los lados del triángulo sería de 
+\begin_inset Formula $120°$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Y entonces, recíprocamente, si el triángulo no tiene ningún ángulo mayor
+ que 120° el mínimo se encontrará en un punto que subtienda los lados con
+ un ángulo de 
+\begin_inset Formula $120°$
+\end_inset
+
+, y por tanto en su interior.
+ También podemos observar, que si el triángulo tiene un ángulo mayor o igual
+ que 
+\begin_inset Formula $120\text{°\ }$
+\end_inset
+
+entonces el mínimo debe estar en alguno de los puntos 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $B$
+\end_inset
+
+ o 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Recordando el muy conocido resultado de geometría elemental: 
+\begin_inset Quotes eld
+\end_inset
+
+A ángulos mayores se le oponen lados mayores
+\begin_inset Quotes erd
+\end_inset
+
+ se concluye que el mínimo debe estar en el vértice correspondiente al ángulo
+ agudo.
+ En síntesis, sea cual sea el triángulo, o el mínimo se encuentra en el
+ interior del triángulo o en los vértices (donde la función no es diferenciable).
+ 
+\end_layout
+
+\begin_layout Standard
+Aunque un estudiante promedio puede seguir, con una guía adecuada del docente,
+ sin problema este razonamiento, nunca está de más el apoyo de la visualización.
+ Para este fin son autoexplicativas las siguientes figuras: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/antonio/Documentos/viejos/AM2/curvNiv2.png
+	scale 48
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Curva-de-nivel1"
+
+\end_inset
+
+Curva de nivel donde se dibuja los vértices del triángulo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/antonio/Documentos/viejos/AM2/curvNiv4.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:CurvNivelEspec"
+
+\end_inset
+
+Curva de nivel más especializada
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Curva-de-nivel1"
+
+\end_inset
+
+ muestra cómo las curvas de nivel indican la posición del mínimo.
+ La figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:CurvNivelEspec"
+
+\end_inset
+
+ amplia más la curva de nivel, dando una visión aproximada del mínimo que
+ según nuestros cálculos son: el mínimo es 
+\begin_inset Formula $5.55485...$
+\end_inset
+
+ y se encuentra en el punto 
+\begin_inset Formula $\left(2.8179048...,1.0050136...\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Para la exposición geométrica de este problema consideremos la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Resolución-geométrica"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/antonio/Documentos/viejos/AM2/FermatGeo.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Resolución-geométrica"
+
+\end_inset
+
+Resolución geométrica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tomemos un punto 
+\begin_inset Formula $F$
+\end_inset
+
+ cualquiera en el interior del triángulo.
+ Tracemos los triángulos equiláteros 
+\begin_inset Formula $AFF_{C}$
+\end_inset
+
+, 
+\begin_inset Formula $BFF_{A}$
+\end_inset
+
+, 
+\begin_inset Formula $CFF_{B}$
+\end_inset
+
+, 
+\begin_inset Formula $ABC'$
+\end_inset
+
+, 
+\begin_inset Formula $CAB'$
+\end_inset
+
+ y 
+\begin_inset Formula $BCA'$
+\end_inset
+
+.
+ Como por construcción, los ángulos 
+\begin_inset Formula $F_{C}AF$
+\end_inset
+
+ y 
+\begin_inset Formula $C'AB$
+\end_inset
+
+ son congruentes, entonces los ángulos 
+\begin_inset Formula $BAF$
+\end_inset
+
+ y 
+\begin_inset Formula $C'AF_{C}$
+\end_inset
+
+ son congruentes.
+ Entonces los triángulos 
+\begin_inset Formula $BAF$
+\end_inset
+
+ y 
+\begin_inset Formula $C'AF_{C}$
+\end_inset
+
+ son congruentes, por el criterio lado-ángulo-lado.
+ Entonces los segmentos 
+\begin_inset Formula $BF$
+\end_inset
+
+ y 
+\begin_inset Formula $C'F_{C}$
+\end_inset
+
+ son congruentes.
+ Entonces la poligonal 
+\begin_inset Formula $C'F_{C}FC$
+\end_inset
+
+ tiene la misma longitud que la suma de las distancias de 
+\begin_inset Formula $F$
+\end_inset
+
+ a los vértices 
+\begin_inset Formula $A,$
+\end_inset
+
+ 
+\begin_inset Formula $B$
+\end_inset
+
+ y 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Si consideramos el punto 
+\begin_inset Formula $F$
+\end_inset
+
+ móvil, entonces cuando 
+\begin_inset Formula $F$
+\end_inset
+
+ esté alineado con 
+\begin_inset Formula $C$
+\end_inset
+
+, 
+\begin_inset Formula $F_{C}$
+\end_inset
+
+ y 
+\begin_inset Formula $C'$
+\end_inset
+
+, la poligonal 
+\begin_inset Formula $C'F_{C}FC$
+\end_inset
+
+ tendrá la menor longitud.
+ Pero cuando esto suceda, 
+\begin_inset Formula $\widehat{AFC}=180\text{°}$
+\end_inset
+
+ como esperábamos.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Problemas de optimización de áreas y volúmenes
+\end_layout
+
+\begin_layout Standard
+Un problema que usualmente se resuelve con el auxilio del cálculo diferencial
+ usando el método de los multilpicadores de Lagrange, es el siguiente:
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Sea 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+un punto del primer cuadrante.
+ Entre todos los triángulos que tienen al punto 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+en uno de sus lados, y los lados restantes sobre los ejes de coordenadas,
+ encontrar el de menor área.
+\end_layout
+
+\begin_layout Standard
+Una explicación breve puede ser la siguiente: Considere la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Área-mínima"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename TriCoorFig1.PNG
+	lyxscale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Área-mínima"
+
+\end_inset
+
+Área mínima
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tomemos un punto 
+\begin_inset Formula $A$
+\end_inset
+
+ de coordenadas 
+\begin_inset Formula $\left(a,b\right)$
+\end_inset
+
+ como en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Área-mínima"
+
+\end_inset
+
+.
+ Sea el triángulo 
+\begin_inset Formula $OED$
+\end_inset
+
+ de tal modo que el segmento 
+\begin_inset Formula $AE$
+\end_inset
+
+ sea mayor que el segmento 
+\begin_inset Formula $AD$
+\end_inset
+
+.
+ Sea 
+\begin_inset Formula $D^{\prime}$
+\end_inset
+
+ el simétrico de 
+\begin_inset Formula $D$
+\end_inset
+
+ con respecto al punto 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+ el punto de intersección de la abscisa con su perpendicular desde 
+\begin_inset Formula $D$
+\end_inset
+
+.
+ Sea 
+\begin_inset Formula $C$
+\end_inset
+
+ la intersección de la recta 
+\begin_inset Formula $AB$
+\end_inset
+
+ con la ordenada.
+ Notemos que los triángulos 
+\begin_inset Formula $ACD$
+\end_inset
+
+ y 
+\begin_inset Formula $ABD^{\prime}$
+\end_inset
+
+ son congruentes y por tanto 
+\begin_inset Formula $OBC$
+\end_inset
+
+ es menor en área que 
+\begin_inset Formula $OED$
+\end_inset
+
+.
+ Naturalmente, si el segmento 
+\begin_inset Formula $AE$
+\end_inset
+
+ es menor que el segmento 
+\begin_inset Formula $AD$
+\end_inset
+
+, la situación sería análoga.
+ De esto se sigue que de todos los triángulos que pasan por el punto 
+\begin_inset Formula $A$
+\end_inset
+
+ y tienen los otros lados sobre los ejes coordenados el de menor área es
+ el que tiene a 
+\begin_inset Formula $A$
+\end_inset
+
+ como punto medio.
+\end_layout
+
+\begin_layout Standard
+Es notable que como corolario de este resultado se resuelve geométricamente
+ el siguiente problema:
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Sea 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+un punto del primer octante.
+ Entre todos los tetraedros que tienen al punto 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+en una de sus caras, y los caras restantes sobre los plano coordenados,
+ encontrar el de menor 
+\color green
+volumen
+\color inherit
+.
+\end_layout
+
+\begin_layout Standard
+Una solución detallada se encuentra en [
+\begin_inset CommandInset citation
+LatexCommand citet
+key "eguez2012optimizsincd"
+
+\end_inset
+
+], pero se basa en aplicar la resolución del problema anterior varias veces.
+ Es sorprendente encontrar que el tetraedro que minimiza el volumen es aquel
+ que tiene al punto 
+\begin_inset Formula $A$
+\end_inset
+
+ como 
+\emph on
+baricentro
+\emph default
+ de una de sus caras.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Palabras Finales
+\end_layout
+
+\begin_layout Standard
+La optimización con métodos de geometría elemental sintética tiene por si
+ el valor de la economía de recursos.
+ Además, es común que en medio de una resolución algebraica o analítica
+ perder el centro del problema en la maraña de cálculos.
+ Por otro lado, con los recursos gráficos y con la posibilidad de explorar
+ una determinada situación geométrica con soft educativo y libre, la enseñanza
+ se vuelve cualitativamente superior a la que se impartía en otras épocas.
+ Estas son las razones que nos impulsaron a presentar este material
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "RiojaEg"
+options "bibtotoc,apalike"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
